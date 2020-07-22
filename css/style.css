@@ -341,9 +341,6 @@ button:hover {
     .carousel .carousel-inner {
         height: 500px;
     }
-    .mobile-no {
-        display: none;
-    }
 
     /* .vertical-line {
         border-left: 0;
@@ -360,6 +357,9 @@ button:hover {
 @media (max-width: 820px) {
     .carousel .carousel-inner {
         height: 600px;
+    }
+    .contact-mobile {
+        margin: 16px 0;
     }
 }
 
@@ -401,6 +401,9 @@ button:hover {
         display: block;
         margin: 0 auto 2rem;
     }
+    .contact-mobile {
+        margin: 16px 0;
+    }
 }
 @media (max-width: 628px) {
     .carousel .carousel-inner {
@@ -410,6 +413,15 @@ button:hover {
 @media (max-width: 593px) {
     .carousel .carousel-inner {
         height: 870px;
+    }
+    .carousel .carousel-inner {
+        height: 1150px;
+    }
+    .contact-mobile {
+        margin: 16px 0;
+    }
+    .szolg-img-slider {
+        margin: 10px auto;
     }
 }
 
@@ -423,5 +435,14 @@ button:hover {
     .narrow {
         width: 100%;
         margin: 0rem;
+    }
+    .contact-img {
+        width: 15%;
+    }
+}
+
+@media (max-width: 359px) {
+    .contact-img {
+        width: 15%;
     }
 }
